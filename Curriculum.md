@@ -16,11 +16,11 @@
 
 ## Work
 
-### Intel Corporation - Ferrara (Italy) - (Apr 2022 – Present)
+### Intel Corporation - Ferrara (Italy) - (Apr 2022, Present)
 
-#### Simulation and Modeling Engineer - SystemC and Simics Simulation (Technical Lead)
+#### Simulation and Modeling Engineer - SystemC and Simics Simulation - Technical Lead
 
-Building on my prior experience with single-IP simulation and integration, I was entrusted with my first SoC-level assignment, a role that significantly expanded my responsibilities and scope. SoC-level tasks are particularly challenging because they involve system-wide changes that impact the interconnects between IPs and the overall platform functionality. My initial project was to overhaul the Sideband network to enable seamless communication between IPs spanning multiple dies and domains. This complex undertaking required meticulous validation, especially for multicast messages, which were prone to subtle issues. Utilizing smoke platform initialization tests, I identified and resolved critical challenges, ensuring a robust and reliable communication framework. Once the Sideband network was operational, I played a key role as an interconnect expert during the platform’s first BIOS UEFI shell boot.
+Building on my prior experience with single-IP simulation and integration, I was entrusted with my first SoC-level assignment, a role that significantly expanded my responsibilities and scope. SoC-level tasks are particularly challenging because they involve system-wide changes that impact the interconnects between IPs and the overall platform functionality. My initial project was to overhaul the Sideband network to enable communication between IPs spanning multiple dies and domains. This complex undertaking required meticulous validation, especially for multicast messages, which were prone to subtle issues. Utilizing smoke platform initialization tests, I identified and resolved critical challenges, ensuring a robust and reliable communication framework. Once the Sideband network was operational, I played a key role as an interconnect expert during the platform’s first BIOS UEFI shell boot.
 
 As part of the platform integration team, I also tackled broader challenges affecting the entire Simics SoC ecosystem. One of my most impactful initiatives was the modernization of the build system. The existing build process relied on Make, which was both time-consuming and inefficient. By leading the transition to CMake with a Ninja generator, I reduced build times from 50 minutes to just 15 minutes — a 70% improvement. This was a collaborative effort requiring alignment across all IP teams contributing to the SoC, but the outcome transformed productivity for developers and dramatically accelerated CI pipelines.
 
@@ -58,144 +58,38 @@ One of my primary tasks was the DMA backdoor access implementation, which allowe
 
 ## Education
 
-### Pre-University Studies
+### Visiting Researcher at National University of Singapore (2017)
 
-#### Scientific Certificate - Italian Secondary School Diploma
+**Thesis:** Many-core Architecture Design for LTE Base Station
 
-#### Bachelor Degree in Electrical Engineering at University of Ferrara (Italy)
+**Advisors:** Prof. Davide Bertozzi & Prof. Tulika Mitra
 
-##### Thesis: Design and development of an RTOS-based driver for a Wi-Fi gateway
+Designed a programmable many-core architecture for high-throughput, low-latency LTE base stations. Focused on real-time physical layer processing using Software Defined Radio (SDR) technology. The project addressed the challenges of 10x throughput increases and latency reductions in 5G wireless standards, integrating RTOS design and realistic 5G applications for end-to-end performance evaluation.
 
-**Advisor** - Prof. Massimiliano Ruggeri
+### MSc in Electrical and Telecommunication Engineering, University of Ferrara (Italy) (2016)
 
-**Abstract** - The main goal of the thesis project is a cable
-replacement in an embedded system through the integration of an
-external wireless module. The chosen Microchip ZG2100M Wi-Fi
-module does not incorporate any TCP/IP stack leaving an extra
-degree of freedom to the developer to customize the functionality
-according to the application requirements. The main target board
-hosts an ARM-based microprocessor (STM32F407ZGT6) and the
-communication with the wireless module relies on a SPI bus. The
-application leans on ChibiOS, a compact and efficient open-
-source real-time operating system and the development
-environment consists of Eclipse CDT, GDB (Gnu Debugger) e
-OpenOCD (GDB server on JTAG). The application starts with a
-network scan with a subsequently connection to the desired SSID
-which allows the exchange of packets over the Wi-Fi protocol.
+**Thesis:** NoC Spatial-Temporal Partitioning for Application Isolation in Many-Core Systems
 
-#### MSc Degree (2nd level Degree) in Electrical and Telecommunication Engineering at University of Ferrara (Italy)
+**Advisor:** Prof. Davide Bertozzi
 
-##### Thesis: NoC Spatial-temporal partitioning technology for application isolation in many-core systems
+Proposed an innovative Network-on-Chip (NoC) architecture combining spatial and temporal partitioning to balance performance and isolation in many-core platforms. Developed a SystemC-based simulation to validate the concept, performing functional tests and analyzing engineering trade-offs like reduced memory access delays.
 
-**Advisor** - Prof. Davide Bertozzi
+### BSc in Electrical Engineering, University of Ferrara (Italy) (2013)
 
-**Abstract** - With tens or even hundreds of compute cores on a
-single processor, many-core platforms provide enough
-computational performance to host several applications, while
-their low energy consumption makes them well-suited to serve as
-programmable accelerators in the high-performance embedded
-computing domain. The consolidation of several types of
-applications with different criticality levels on the same hardware
-platform raises severe practical issues, ranging from system
-composability challenges for easier verification to performance
-predictability and security concerns. The goal of this thesis is to
-propose an innovative architecture with built-in hardware support
-for efficient resource sharing between a multi-program workload.
-The idea consists of synergistically exploiting space-division
-multiplexing and time-division multiplexing to trade performance
-for isolation. At the same time, the proposed architecture performs
-positively in terms of minimizing the non-uniform memory access
-effects. Goal of the thesis is to develop a SystemC-based platform
-capable of validating the concept with high level of accuracy, and
-of performing basic functional tests, as well as verifying the
-engineering trade-offs.
+**Thesis:** RTOS-Based Driver for a Wi-Fi Gateway
 
-#### Visiting Researcher at National University of Singapore
+**Advisor:** Prof. Massimiliano Ruggeri
 
-##### Thesis: Many-core architecture design for LTE base station
+Developed a driver integrating a Microchip ZG2100M Wi-Fi module with an ARM-based STM32F407ZGT6 microcontroller. The project featured ChibiOS RTOS, SPI communication, and tools like Eclipse CDT, GDB, and OpenOCD. Key outcomes included network scanning, SSID connection, and Wi-Fi packet exchange.
 
-**Advisors** - Davide Bertozzi & Tulika Mitra
+### University Projects
 
-**Abstract** - The objective of this project is to design a real-time,
-high-throughput, low-power base station for future 5G wireless
-baseband processing using Software Defined Radio (SDR)
-technology. In particular, the project is focused on many-core
-architecture design for high-throughput processing, real-time
-operating systems (RTOS) design to fully leverage the underlying
-architecture, and an end-to-end performance evaluation with
-realistic 5G applications and their corresponding network
-traffic.The main challenge in 5G wireless baseband processing is
-the 10x increase in throughput and 10 fold reductions in latency.
-The physical layer processing is the most computationally
-demanding component in the base station protocol stack.
-Traditionally, the physical layer has been implemented using
-customized fixed-function hardware accelerator and DSP (digital
-signal processing) cores. However, these designs are inflexible in
-the face of updates in the standard and supporting multiple
-standards as required by SDR. Software-programmable
-processors can offer easy migration path. However, current many-
-core architectures (both commercial and academic) are far from
-achieving 5G throughput. The goal of this project is to design fully-
-programmable, power-efficient many-core architecture for real-
-time, high-throughput processing of the physical layer in a base
-station.
-Collaboration between University of Ferrara (Prof. Davide
-Bertozzi) and School of Computing at National University of
-Singapore (<http://www.comp.nus.edu.sg/>)
-
-## University Projects
-
-### Design of a power amplifier for WLAN 802.11B applications
-
-The project focus was to assess all the specifications required by
-the IEEE 802.11b standard concerning power, gain and spectral
-density. To achieve the results, I relied on AWR Microwave Office
-simulation tool.
-
-### FPGA Flash Programming
-
-The aim of the project was a simple implementation of a LPF filter
-for the Altera StratixII EP2S60 FPGA with Matlab and Altera
-Simulink libraries. The main achievement was to flash the
-bitstream of the application in the flash memory of the board,
-relying on Quartus II tool.
-
-### Firewall implementation and cryptography
-
-The main scope of the project was the implementation of flow
-control applications, networking rules with IP-tables, routing
-restrictions and development of cypher protocols with Python.
-
-### Peer-to-peer protocols
-
-The project consisted of the Python development of peer-to-peer
-protocols like Kazaa, Gnutella, Napster and BitTorrent.
-
-### Orthogonal Frequency-Division Multiplexing Matlab simulation
-
-The purpose of the project was implementing a real scenario with
-a base station and random number of users that want to access it,
-with fairness algorithm for subcarriers’ allocation.
-
-### Mixed-signal heart-rate monitor implementation
-
-VHDL-based design of mixed-signal system to monitor the activity
-of internal registers through I2C, DAC converter and oscilloscope.
-The target system consisted of of Digilent Basys3 FPGA, Texas
-Instrument ASLKPRO Board and Max 30100 heart-rate module.
-
-### SystemC modelling of Network On-Chip router’s internal architecture
-
-This was a course project for the course "Architecture of Digital
-Integrated Systems", aimed at learning the fundamentals of
-SystemC programming. Hardware modelling with SystemC
-represents one third of the total course content (prof. Davide
-Bertozzi). The project goal was the RTL-equivalent SystemC
-implementation of the internal blocks of a 5x5 router, consisting of:
-input buffers, arbiters, routing logics, crossbar and output buffers.
-Finally, a deep exploration of several arbitration policies and the
-evaluation of the whole structure through synthetic traffic pattern
-generators were provided.
+- **Many-Core Network-On-Chip Router (SystemC)**: Modeled a 5x5 NoC router with SystemC, including buffers, arbiters, and routing logic, exploring arbitration policies and synthetic traffic patterns.
+- **Mixed-Signal Heart-Rate Monitor (VHDL)**: Designed a heart-rate monitor with FPGA (Basys3), I2C, and DAC converters integrated with Texas Instruments ASLKPRO Board.
+- **Orthogonal Frequency-Division Multiplexing (Matlab)**: Simulated a base station handling random user access, applying fairness algorithms for subcarrier allocation.
+- **Firewall Implementation (Python)**: Developed flow control, IP routing, and cryptographic protocols.
+- **FPGA Flash Programming (Intel Altera Quartus)**: Implemented an LPF filter on Altera StratixII EP2S60 FPGA and flashed the bitstream to the board.
+- **Power Amplifier for WLAN 802.11B (AWR Microwave Office)**: Designed a power amplifier meeting IEEE 802.11b specifications using AWR Microwave Office.
 
 ## Skills
 
