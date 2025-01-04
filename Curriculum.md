@@ -12,20 +12,37 @@
 
 **LinkedIn** <https://www.linkedin.com/in/marcelloziotti>
 
-**Github** <https://github.com/marcelloziotti>
-
 **Email** [marcello.ziotti@gmail.com](mailto:marcello.ziotti@gmail.com)
 
 ## Work
 
 ### Intel Corporation - Munich (Germany) - (Feb 2018, Apr 2022)
 
-System Software and Simulation Modeling engineer in virtual
-platforms simulator.
+#### System Software and Simulation Modeling Engineer in Virtual Platforms Simulator
+
+I joined Intel as part of a highly experienced team focused on the development and simulation of the Audio IP model for the Alderlake and Meteorlake SoC platforms. Initially starting with smaller tasks and bug fixes, my deep knowledge of SystemC allowed me to quickly take on more critical responsibilities. I was tasked with extending the Audio IP model by integrating serial interfaces like I2C, SPI, and I3C, collaborating closely with IP architects who used Simics as a primary validation tool for their specifications. This led to the seamless integration of these interfaces into the simulation environment.
+
+I also spearheaded the migration of the Audio IP build system from Make to CMake, significantly improving efficiency. This transition, integrated into the Continuous Integration (CI) pipeline, resulted in a 70% speedup in build times and increased the team's overall productivity.
+
+My second major task involved leading the update of the Intel Sideband SystemC library to align with new architecture specifications. This cross-team project required collaboration with the Simics Simulator team to integrate the updated Sideband interface model into the core Simics libraries. The successful integration not only enhanced the Audio IP model but also benefited all SystemC-based models used within Simics.
+
+In parallel, I took ownership of wrapping the Camera IP (developed by the core IP team) into a SystemC Simics model for the Meteorlake SoC. This involved transforming a plain C++ model into a SystemC model with key interfaces such as IOSF PCIe and Sideband, ensuring seamless integration into the simulator. Collaboration with the core IP team was crucial in ensuring the accuracy of the final model. Both the Audio and Camera IPs were deployed with separate CI jobs for efficient continuous integration, ensuring reliability before integration into the larger SoC platform.
+
+As the Lunarlake SoC project began, I continued overseeing the Audio and Camera IPs and was given the opportunity to work on a groundbreaking new feature: Total Storage Encryption (TSE), based on the AES-256b cryptographic algorithm. This was my first project using Device Modeling Language (DML) instead of SystemC, expanding my skillset and allowing me to adopt Test Driven Development (TDD) from the start. The feature was rigorously unit tested and validated, with the BIOS team playing a key role in its end-to-end validation. A critical validation step was creating a UEFI application to test both UEFI behavior and the hardware in Simics, ensuring robust functionality. Once tested at the OS level using Microsoft Windows, most use-cases passed quickly, showcasing the feature’s reliability and performance.
+
+A key milestone was our collaboration with Microsoft, using Simics for OS-level validation. The Simics model was able to detect and fix five important bugs in the Windows OS prior to public release. This collaboration was invaluable and solidified our relationship with Microsoft, as they continued to rely on Simics for future SoC and OS releases.
+
+In addition to my core responsibilities, I initiated the Software Continuous Integration (SWCI) project, which aimed to automate the integration and testing of BIOS/FW components alongside the SoC build. This mechanism allowed for rapid identification of failures in firmware components, ensuring that any issues were addressed early in the process. While the initiative proved successful for BIOS integration and helped streamline the process, its complexity required cross-team coordination. The SWCI initiative continued to evolve and was carried forward in subsequent SoC projects, such as Pantherlake.
 
 ### Intel Corporation - Ferrara (Italy) - (Apr 2022, current)
 
-System simulation.
+Platform level integration, test expert.
+
+CMake migration across multiple teams.
+
+Unit test framework for the whole org.
+
+Pre-commit code coverage check integrated in CI.
 
 ## Education
 
