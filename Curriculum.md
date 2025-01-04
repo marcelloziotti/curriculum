@@ -2,17 +2,12 @@
 
 ## Personal Information & Contacts
 
-**Name** Marcello Ziotti
-
-**Birth Date** December 16th, 1990
-
-**Birth Place** Ferrara, ITALY
-
-**Nationality** Italian
-
-**LinkedIn** <https://www.linkedin.com/in/marcelloziotti>
-
-**Email** [marcello.ziotti@gmail.com](mailto:marcello.ziotti@gmail.com)
+- **Name:** Marcello Ziotti
+- **Birth Date:** December 16th, 1990
+- **Birth Place:** Ferrara, ITALY
+- **Nationality:** Italian
+- **LinkedIn:** <https://www.linkedin.com/in/marcelloziotti>
+- **Email:** [marcello.ziotti@gmail.com](mailto:marcello.ziotti@gmail.com)
 
 ## Work
 
@@ -84,61 +79,41 @@ Developed a driver integrating a Microchip ZG2100M Wi-Fi module with an ARM-base
 
 ### University Projects
 
-- **Many-Core Network-On-Chip Router (SystemC)**: Modeled a 5x5 NoC router with SystemC, including buffers, arbiters, and routing logic, exploring arbitration policies and synthetic traffic patterns.
-- **Mixed-Signal Heart-Rate Monitor (VHDL)**: Designed a heart-rate monitor with FPGA (Basys3), I2C, and DAC converters integrated with Texas Instruments ASLKPRO Board.
-- **Orthogonal Frequency-Division Multiplexing (Matlab)**: Simulated a base station handling random user access, applying fairness algorithms for subcarrier allocation.
-- **Firewall Implementation (Python)**: Developed flow control, IP routing, and cryptographic protocols.
-- **FPGA Flash Programming (Intel Altera Quartus)**: Implemented an LPF filter on Altera StratixII EP2S60 FPGA and flashed the bitstream to the board.
-- **Power Amplifier for WLAN 802.11B (AWR Microwave Office)**: Designed a power amplifier meeting IEEE 802.11b specifications using AWR Microwave Office.
+- **Many-Core Network-On-Chip Router (SystemC):** Modeled a 5x5 NoC router with SystemC, including buffers, arbiters, and routing logic, exploring arbitration policies and synthetic traffic patterns.
+- **Mixed-Signal Heart-Rate Monitor (VHDL):** Designed a heart-rate monitor with FPGA (Basys3), I2C, and DAC converters integrated with Texas Instruments ASLKPRO Board.
+- **Orthogonal Frequency-Division Multiplexing (Matlab):** Simulated a base station handling random user access, applying fairness algorithms for subcarrier allocation.
+- **Firewall Implementation (Python):** Developed flow control, IP routing, and cryptographic protocols.
+- **FPGA Flash Programming (Intel Altera Quartus):** Implemented an LPF filter on Altera StratixII EP2S60 FPGA and flashed the bitstream to the board.
+- **Power Amplifier for WLAN 802.11B (AWR Microwave Office):** Designed a power amplifier meeting IEEE 802.11b specifications using AWR Microwave Office.
 
 ## Skills
 
-### Languages
+### Core Competencies
 
-**Italian** (native speaker)
+- **Problem Solving & Initiative:** Thrive on embracing challenges, stepping out of my comfort zone, and figuring out solutions to complex tasks. I proactively seek opportunities to improve workflows and practices, often inspired by conversations with teammates or feedback from customers.
+- **Test-Driven Development (TDD) & Code Quality:** Passionate about delivering robust, reliable, and maintainable software. Strong advocate for unit testing, code coverage, and Test-Driven Development, ensuring the highest standards of quality across all projects.
+- **Clear & Simple Code:** Believe that great code is sincere, unadorned, and free of unnecessary complexity. Committed to writing clear, maintainable, and scalable code that teams can easily build upon.
+- **Collaboration & Team Success:** My achievements are rooted in the success of the team. I enjoy mentoring, sharing knowledge, and learning from others, fostering a culture of growth and continuous improvement.
+- **Adaptability & Versatility:** Confidently juggle diverse tasks and rapidly adapt to new tools, technologies, and workflows. My openness to exploring new domains and taking on unfamiliar responsibilities has been instrumental in driving team and project success.
+- **Continuous Integration (CI) & DevOps Collaboration:** Deeply interested in improving development pipelines and best practices. Frequently collaborated with DevOps teams to enhance CI processes, ensuring faster, more reliable builds and deployments.
 
-**English** (fluent)
+### Programming & Modeling Languages
 
-**German** (good)
+- **Proficient:** Python, SystemC, Device Modeling Language (DML), CMake
+- **Experienced:** C, C++, Make, Bash
+- **Familiar:** VHDL, Verilog, SystemVerilog, Java, Assembly (ASM)
 
-**Spanish** (basic)
+### Tools & Frameworks
 
-### Programming Languages
+- **Simulators:** Simics, VirtualSoC, MPARM
+- **Build Systems:** Make, CMake, Ninja
+- **Debuggers:** GNU Debugger (GDB), Clang/LLVM, OpenOCD
+- **Modeling & Design:** Quartus II, Vivado, MatLAB/Simulink, Synopsys Design Compiler
+- **Productivity:** Microsoft Office, LibreOffice, Apple iWork Suite
 
-- Python
-- DML
-- SystemC
-- C
-- C++
-- Bash
-- Csh
-- Make
-- CMake
-- Java
-- VHDL
-- Verilog
-- Assembly (ASM)
-- HTML
-- HTML5
-- CSS
-- XML
+## Languages
 
-### Tools
-
-- Gtkwave
-- iWork Suite (Pages, Numbers, Keynote)
-- LibreOffice Suite (Writer, Calc, Impress, Draw, Charts, Math)
-- Microsoft Office Suite (Word, Excel, PowerPoint, Outlook)
-- MatLAB with Simulink
-- Octave
-- GNU Debugger (GDB)
-- OpenOCD GDB Server
-- Quartus II
-- Synopsys Design & IC Compiler
-- Xilinx SDK - Vivado
-
-### Simulators
-
-- Simics
-- VirtualSoC
-- MPARM
+- **Italian:** Native speaker
+- **English:** Fluent (professional proficiency)
+- **German:** Good (conversational proficiency)
+- **Spanish:** Basic (elementary proficiency)
