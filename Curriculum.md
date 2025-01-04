@@ -16,9 +16,21 @@
 
 ## Work
 
-### Intel Corporation - Munich (Germany) - (Feb 2018, Apr 2022)
+### Intel Corporation - Ferrara (Italy) - (Apr 2022, current)
 
 #### System Software and Simulation Modeling Engineer in Virtual Platforms Simulator
+
+Platform level integration, test expert.
+
+CMake migration across multiple teams.
+
+Unit test framework for the whole org.
+
+Pre-commit code coverage check integrated in CI.
+
+### Intel Corporation - Munich (Germany) - (Jul 2018, Apr 2022)
+
+#### Simulation and Modeling Engineer - SystemC and Simics Simulation
 
 I joined Intel as part of a highly experienced team focused on the development and simulation of the Audio IP model for the Alderlake and Meteorlake SoC platforms. Initially starting with smaller tasks and bug fixes, my deep knowledge of SystemC allowed me to quickly take on more critical responsibilities. I was tasked with extending the Audio IP model by integrating serial interfaces like I2C, SPI, and I3C, collaborating closely with IP architects who used Simics as a primary validation tool for their specifications. This led to the seamless integration of these interfaces into the simulation environment.
 
@@ -34,15 +46,13 @@ A key milestone was our collaboration with Microsoft, using Simics for OS-level 
 
 In addition to my core responsibilities, I initiated the Software Continuous Integration (SWCI) project, which aimed to automate the integration and testing of BIOS/FW components alongside the SoC build. This mechanism allowed for rapid identification of failures in firmware components, ensuring that any issues were addressed early in the process. While the initiative proved successful for BIOS integration and helped streamline the process, its complexity required cross-team coordination. The SWCI initiative continued to evolve and was carried forward in subsequent SoC projects, such as Pantherlake.
 
-### Intel Corporation - Ferrara (Italy) - (Apr 2022, current)
+### Intel Corporation - Munich (Germany) - (Feb 2018, Jul 2018)
 
-Platform level integration, test expert.
+#### Design Verification Engineer
 
-CMake migration across multiple teams.
+Before transitioning to my work on Simics, I contributed to the cellular 5G chip design verification efforts, focusing on SystemVerilog and the UVM (Universal Verification Methodology) framework. This role involved both behavioral and performance/power validation, ensuring the chip met key design and functionality requirements.
 
-Unit test framework for the whole org.
-
-Pre-commit code coverage check integrated in CI.
+One of my primary tasks was the DMA backdoor access implementation, which allowed for efficient communication and validation of internal chip components. This was my first exposure to RF/5G chip validation, where I gained foundational experience in both system-level verification and performance/power estimation, contributing to the overall design validation process.
 
 ## Education
 
