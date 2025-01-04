@@ -16,17 +16,19 @@
 
 ## Work
 
-### Intel Corporation - Ferrara (Italy) - (Apr 2022, current)
+### Intel Corporation - Ferrara (Italy) - (Apr 2022 – Present)
 
-#### System Software and Simulation Modeling Engineer in Virtual Platforms Simulator
+#### Simulation and Modeling Engineer - SystemC and Simics Simulation (Technical Lead)
 
-Platform level integration, test expert.
+Building on my prior experience with single-IP simulation and integration, I was entrusted with my first SoC-level assignment, a role that significantly expanded my responsibilities and scope. SoC-level tasks are particularly challenging because they involve system-wide changes that impact the interconnects between IPs and the overall platform functionality. My initial project was to overhaul the Sideband network to enable seamless communication between IPs spanning multiple dies and domains. This complex undertaking required meticulous validation, especially for multicast messages, which were prone to subtle issues. Utilizing smoke platform initialization tests, I identified and resolved critical challenges, ensuring a robust and reliable communication framework. Once the Sideband network was operational, I played a key role as an interconnect expert during the platform’s first BIOS UEFI shell boot.
 
-CMake migration across multiple teams.
+As part of the platform integration team, I also tackled broader challenges affecting the entire Simics SoC ecosystem. One of my most impactful initiatives was the modernization of the build system. The existing build process relied on Make, which was both time-consuming and inefficient. By leading the transition to CMake with a Ninja generator, I reduced build times from 50 minutes to just 15 minutes — a 70% improvement. This was a collaborative effort requiring alignment across all IP teams contributing to the SoC, but the outcome transformed productivity for developers and dramatically accelerated CI pipelines.
 
-Unit test framework for the whole org.
+Another significant contribution was addressing inefficiencies in the testing strategy for the Simics SoC platform. The traditional reliance on system-level tests, which required running firmware, software, and the operating system, was not sustainable for detecting issues early in development. To remedy this, I designed and implemented a unit test framework tailored for individual IP teams. This framework made it simple to create initialization tests and enabled more granular validation at the IP level before integration into the platform. To ensure widespread adoption, I worked closely with technical leads to streamline the framework and make IP-level testing mandatory for integration.
 
-Pre-commit code coverage check integrated in CI.
+Recognizing the importance of quality assurance, I extended this effort by introducing a code coverage monitoring system integrated with GitHub workflows. This system automatically checks that any proposed changes maintain or improve test coverage, blocking commits that could degrade the reliability of an IP model. This mechanism has pushed the organization toward adopting Test-Driven Development (TDD), driving a cultural shift that prioritizes robust, tested code.
+
+These initiatives, combined with my foundational work on platform integration and cross-team collaboration, culminated in my promotion to Technical Lead. In this role, I continue to oversee platform-wide projects, mentor colleagues, and champion innovative practices that enhance the quality, efficiency, and reliability of Intel’s SoC simulation platforms.
 
 ### Intel Corporation - Munich (Germany) - (Jul 2018, Apr 2022)
 
