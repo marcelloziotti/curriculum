@@ -1,10 +1,6 @@
 # Marcello Ziotti
 
-<!--
-Make sure to update the user settings.json:
-"markdown-pdf.styles": ["/path/to/style.css"]
--->
-<img src="profile-pic.jpg" alt="Marcello Ziotti" class="profile-pic">
+<img src="profile-pic.jpg" alt="Marcello Ziotti" style="float: right; width: 18%; height: auto; margin-right: 2%;">
 
 ## Contacts
 
