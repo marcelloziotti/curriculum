@@ -1,3 +1,5 @@
+<div style="text-align: justify;">
+
 # Marcello Ziotti
 
 <img src="profile-pic.jpg" alt="Marcello Ziotti" style="float: right; width: 12%; height: auto; margin-right: 2%;">
@@ -80,3 +82,5 @@ Designed a programmable many-core architecture based on SystemC for high-through
   - Experienced: C, C++, Make, Bash
   - Familiar: VHDL, Verilog, SystemVerilog, Java, Assembly (ASM)
 - 🌐 **Languages:** Italian (Native), English (Fluent), German (Intermediate), Spanish (Basic)
+
+</div>
