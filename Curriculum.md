@@ -4,8 +4,8 @@
 
 ## Contacts
 
-- **LinkedIn:** <https://www.linkedin.com/in/marcelloziotti>
-- **Email:** [marcello.ziotti@gmail.com](mailto:marcello.ziotti@gmail.com)
+- 🌐 **LinkedIn:** <https://www.linkedin.com/in/marcelloziotti>
+- 📫 **Email:** [marcello.ziotti@gmail.com](mailto:marcello.ziotti@gmail.com)
 
 ## Work
 
@@ -17,11 +17,11 @@ Building on my experience in single-IP simulation, I transitioned to SoC-level r
 
 Key Contributions:
 
-- **Pantherlake Sideband Topology Update & First Boot:** Designed and validated a Sideband network to enable multi-die, multi-domain communication. Solved challenges with multicast messaging using smoke platform initialization tests. Drove together with Bios/FW and OS team first SoC boot to UEFI shell and Windows OS.
-- **Build System Modernization:** Spearheaded the transition from Make to CMake with Ninja, reducing build times of Simics SoCs platforms by 70% (from 50 to 15 minutes). Coordinated with all IP teams to align on the new build process, improving developer efficiency and CI pipelines.
-- **Unit Testing Framework for IPs:** Developed a unit test framework for IP-level validation, enabling early issue detection before platform integration. Ensured adoption by collaborating with technical leads and making unit testing mandatory for integration.
-- **Code Quality and TDD Integration:** Integrated code coverage monitoring into GitHub workflows to prevent test coverage regressions. Advocated for and implemented Test-Driven Development (TDD) practices, driving a cultural shift towards robust and maintainable code.
-- **Technical Leadership:** Promoted to Technical Lead for contributions to simulation platforms and organizational efficiency. Mentored new hires and streamlined a code coverage tool, currently adopted by 30 IPs, achieving coverage above 90%.
+- 💻 **Pantherlake Sideband Topology Update & First Boot:** Designed and validated a Sideband network to enable multi-die, multi-domain communication. Solved challenges with multicast messaging using smoke platform initialization tests. Drove together with Bios/FW and OS team first SoC boot to UEFI shell and Windows OS.
+- 🚀 **Build System Modernization:** Spearheaded the transition from Make to CMake with Ninja, reducing build times of Simics SoCs platforms by 70% (from 50 to 15 minutes). Coordinated with all IP teams to align on the new build process, improving developer efficiency and CI pipelines.
+- ✅ **Unit Testing Framework for IPs:** Developed a unit test framework for IP-level validation, enabling early issue detection before platform integration. Ensured adoption by collaborating with technical leads and making unit testing mandatory for integration.
+- 🔧 **Code Quality and TDD Integration:** Integrated code coverage monitoring into GitHub workflows to prevent test coverage regressions. Advocated for and implemented Test-Driven Development (TDD) practices, driving a cultural shift towards robust and maintainable code.
+- 🤝 **Technical Leadership:** Promoted to Technical Lead for contributions to simulation platforms and organizational efficiency. Mentored new hires and streamlined a code coverage tool, currently adopted by 30 IPs, achieving coverage above 90%.
 
 ### Intel Corporation - Munich (Germany) - (Jul 2018, Apr 2022)
 
@@ -31,13 +31,13 @@ When I transitioned into simulation modeling at Intel, I began working on System
 
 Key Contributions:
 
-- **Audio IP and Hardware Communication Interfaces (Meteoralake):** Evaluated with architect teams the integration of embedded system interfaces such as I2C, I3C, SPI, UART to the Audio IP Simics SystemC model.
-- **Build System Modernization:** Migrated the Audio IP build system from Make to CMake, achieving a 70% speedup in build times.
-- **Intel Sideband SystemC Library Update:** Partnered with the Simics Simulator team the upgrade of the core Intel Sideband SystemC library to meet new architecture specifications.
-- **Camera IP 3rd Party Integration (Meteorlake):** Integrated into a Simics SystemC model the Camera SystemC model developed by the IP team. Owned the end-to-end Simics validation.
-- **NVMe Data Encryption Modeling (Lunarlake):** Created brand new Simics DML (Device Modeling Language) model responsible of NVMe data encryption. Adopted Test-Driven Development (TDD) and validated functionality with the BIOS team using UEFI applications shifting left successfully the overall FW/SW/OS readiness.
-- **Collaboration with Microsoft:** Running NVMe encryption flows on Simics helped Microsoft to detect and fix three critical bugs in the Windows OS pre-release. Microsoft found a great value in Simics SoC simuation, and the collaboration is continuing also for the upcoming SoCs like Pantherlake.
-- **Software Continuous Integration (SWCI) Initiative:** Initiated the SWCI project to integrate and test BIOS/FW components alongside Simics SoC builds. Enabled early identification of firmware issues and streamlined the integration process to upcoming SoCs like Pantherlake.
+- 🔈 **Audio IP and Hardware Communication Interfaces (Meteoralake):** Evaluated with architect teams the integration of embedded system interfaces such as I2C, I3C, SPI, UART to the Audio IP Simics SystemC model.
+- 🚀 **Build System Modernization:** Migrated the Audio IP build system from Make to CMake, achieving a 70% speedup in build times.
+- 🔧 **Intel Sideband SystemC Library Update:** Partnered with the Simics Simulator team the upgrade of the core Intel Sideband SystemC library to meet new architecture specifications.
+- 📷 **Camera IP 3rd Party Integration (Meteorlake):** Integrated into a Simics SystemC model the Camera SystemC model developed by the IP team. Owned the end-to-end Simics validation.
+- :lock: **NVMe Data Encryption Modeling (Lunarlake):** Created brand new Simics DML (Device Modeling Language) model responsible of NVMe data encryption. Adopted Test-Driven Development (TDD) and validated functionality with the BIOS team using UEFI applications shifting left successfully the overall FW/SW/OS readiness.
+- 🤝 **Collaboration with Microsoft:** Running NVMe encryption flows on Simics helped Microsoft to detect and fix three critical bugs in the Windows OS pre-release. Microsoft found a great value in Simics SoC simuation, and the collaboration is continuing also for the upcoming SoCs like Pantherlake.
+- ⚙️ **Software Continuous Integration (SWCI) Initiative:** Initiated the SWCI project to integrate and test BIOS/FW components alongside Simics SoC builds. Enabled early identification of firmware issues and streamlined the integration process to upcoming SoCs like Pantherlake.
 
 ### Intel Corporation - Munich (Germany) - (Feb 2018, Jul 2018)
 
@@ -51,9 +51,9 @@ Designed a programmable many-core architecture based on SystemC for high-through
 
 ## Education
 
-- **MSc in Electrical and Telecommunication Engineering, University of Ferrara (Italy) (2017)**
-- **BSc in Electrical Engineering, University of Ferrara (Italy) (2014)**
-- **Projects**:
+- 🎓 **MSc in Electrical and Telecommunication Engineering, University of Ferrara (Italy) (2017)**
+- 🎓 **BSc in Electrical Engineering, University of Ferrara (Italy) (2014)**
+- 🛠️ **Projects**:
   - **Network-On-Chip Architecture Combining Spatial and Temporal Partitioning (MsC Thesis, SystemC)**: Evaluated performance and isolation in many-core platforms analyzing engineering trade-offs like reduced memory access delays.
   - **RTOS-Based Driver for a Wi-Fi Gateway (Bachelor Thesis, C/C++)**: Developed a driver integrating a Wi-Fi module with an ARM-based performing network scanning, SSID connection, and Wi-Fi packet exchange.
   - **Mixed-Signal Heart-Rate Monitor (VHDL):** Designed a heart-rate monitor with FPGA (Basys3), I2C sensor, and DAC converters integrated with Texas Instruments ASLKPRO Board.
@@ -66,22 +66,22 @@ Designed a programmable many-core architecture based on SystemC for high-through
 
 ### Core Competencies
 
-- **Problem Solving & Initiative:** Thrive on embracing challenges, stepping out of my comfort zone, and figuring out solutions to complex tasks. Proactively improve workflows, leveraging team collaboration and customer feedback.
-- **Test-Driven Development (TDD) & Code Quality:** Strong advocate for unit testing, code coverage, and Test-Driven Development, ensuring the highest standards of quality across all projects.
-- **Clear & Simple Code:** Believe that great code is sincere, unadorned, and free of unnecessary complexity. Committed to writing clear, maintainable, and scalable code that teams can easily build upon.
-- **Collaboration & Team Success:** My achievements are rooted in the success of the team. I enjoy mentoring, sharing knowledge, and learning from others, fostering a culture of growth and continuous improvement.
-- **Adaptability & Versatility:** Like to juggle among diverse tasks and open to explore new domains.
-- **Continuous Integration (CI) & DevOps Collaboration:** Frequently collaborated with DevOps teams given my deep interest in improving development pipelines and best practices ensuring faster, more reliable builds and deployments.
+- 🧩 **Problem Solving & Initiative:** Thrive on embracing challenges, stepping out of my comfort zone, and figuring out solutions to complex tasks. Proactively improve workflows, leveraging team collaboration and customer feedback.
+- 🛠️ **Test-Driven Development (TDD) & Code Quality:** Strong advocate for unit testing, code coverage, and Test-Driven Development, ensuring the highest standards of quality across all projects.
+- 📄 **Clear & Simple Code:** Believe that great code is sincere, unadorned, and free of unnecessary complexity. Committed to writing clear, maintainable, and scalable code that teams can easily build upon.
+- 🤝 **Collaboration & Team Success:** My achievements are rooted in the success of the team. I enjoy mentoring, sharing knowledge, and learning from others, fostering a culture of growth and continuous improvement.
+- ⚡ **Adaptability & Versatility:** Like to juggle among diverse tasks and open to explore new domains.
+- ⚙️ **Continuous Integration (CI) & DevOps Collaboration:** Frequently collaborated with DevOps teams given my deep interest in improving development pipelines and best practices ensuring faster, more reliable builds and deployments.
 
 ### Programming & Modeling Languages
 
-- **Proficient:** Python, SystemC, Device Modeling Language (DML), CMake
-- **Experienced:** C, C++, Make, Bash
-- **Familiar:** VHDL, Verilog, SystemVerilog, Java, Assembly (ASM)
+- 💻 **Proficient:** Python, SystemC, Device Modeling Language (DML), CMake
+- 🛠️ **Experienced:** C, C++, Make, Bash
+- 🔧 **Familiar:** VHDL, Verilog, SystemVerilog, Java, Assembly (ASM)
 
 ## Languages
 
-- **Italian:** Native
-- **English:** Fluent
-- **German:** Intermediate
-- **Spanish:** Basic
+- :it: **Italian:** Native
+- :us: **English:** Fluent
+- :de: **German:** Intermediate
+- :es: **Spanish:** Basic
