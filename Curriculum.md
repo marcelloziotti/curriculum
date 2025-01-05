@@ -1,6 +1,6 @@
 # Marcello Ziotti
 
-<img src="profile-pic.jpg" alt="Marcello Ziotti" style="float: right; width: 18%; height: auto; margin-right: 2%;">
+<img src="profile-pic.jpg" alt="Marcello Ziotti" style="float: right; width: 12%; height: auto; margin-right: 2%;">
 
 ## Contacts
 
@@ -66,22 +66,17 @@ Designed a programmable many-core architecture based on SystemC for high-through
 
 ### Core Competencies
 
-- 🧩 **Problem Solving & Initiative:** Thrive on embracing challenges, stepping out of my comfort zone, and figuring out solutions to complex tasks. Proactively improve workflows, leveraging team collaboration and customer feedback.
+- 🧩 **Problem Solving & Initiative:** Embrace challenges and tackle complex tasks by identifying and addressing inefficiencies. Proactively improve workflows when opportunities arise.
 - 🛠️ **Test-Driven Development (TDD) & Code Quality:** Strong advocate for unit testing, code coverage, and Test-Driven Development, ensuring the highest standards of quality across all projects.
 - 📄 **Clear & Simple Code:** Believe that great code is sincere, unadorned, and free of unnecessary complexity. Committed to writing clear, maintainable, and scalable code that teams can easily build upon.
-- 🤝 **Collaboration & Team Success:** My achievements are rooted in the success of the team. I enjoy mentoring, sharing knowledge, and learning from others, fostering a culture of growth and continuous improvement.
+- 🤝 **Collaboration & Team Success:** My achievements are rooted in the success of the team. I enjoy mentoring, sharing knowledge, and learning from others, fostering a culture of growth and  improvement.
 - ⚡ **Adaptability & Versatility:** Like to juggle among diverse tasks and open to explore new domains.
-- ⚙️ **Continuous Integration (CI) & DevOps Collaboration:** Frequently collaborated with DevOps teams given my deep interest in improving development pipelines and best practices ensuring faster, more reliable builds and deployments.
+- ⚙️ **Continuous Integration (CI) & DevOps Collaboration:** Frequently collaborated with DevOps teams to enhance pipelines and practices for faster software deployment.
 
-### Programming & Modeling Languages
+### Languages & Technical Skills
 
-- 💻 **Proficient:** Python, SystemC, Device Modeling Language (DML), CMake
-- 🛠️ **Experienced:** C, C++, Make, Bash
-- 🔧 **Familiar:** VHDL, Verilog, SystemVerilog, Java, Assembly (ASM)
-
-## Languages
-
-- :it: **Italian:** Native
-- :us: **English:** Fluent
-- :de: **German:** Intermediate
-- :es: **Spanish:** Basic
+- 💻 **Programming & Modeling Languages:**
+  - Proficient: Python, SystemC, Device Modeling Language (DML), CMake
+  - Experienced: C, C++, Make, Bash
+  - Familiar: VHDL, Verilog, SystemVerilog, Java, Assembly (ASM)
+- 🌐 **Languages:** Italian (Native), English (Fluent), German (Intermediate), Spanish (Basic)
