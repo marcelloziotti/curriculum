@@ -16,10 +16,10 @@ Building on my experience in single-IP simulation, I transitioned to SoC-level r
 Key Contributions:
 
 - **Pantherlake Sideband Topology Update & First Boot:** Designed and validated a Sideband network to enable multi-die, multi-domain communication. Solved challenges with multicast messaging using smoke platform initialization tests. Drove together with Bios/FW and OS team first SoC boot to UEFI shell and Windows OS.
-- **Build System Modernization:** Spearheaded the transition from Make to CMake with Ninja, reducing build times by 70% (from 50 to 15 minutes). Coordinated with all IP teams to align on the new build process, improving developer efficiency and CI pipelines.
+- **Build System Modernization:** Spearheaded the transition from Make to CMake with Ninja, reducing build times of Simics SoCs platforms by 70% (from 50 to 15 minutes). Coordinated with all IP teams to align on the new build process, improving developer efficiency and CI pipelines.
 - **Unit Testing Framework for IPs:** Developed a unit test framework for IP-level validation, enabling early issue detection before platform integration. Ensured adoption by collaborating with technical leads and making unit testing mandatory for integration.
 - **Code Quality and TDD Integration:** Integrated code coverage monitoring into GitHub workflows to prevent test coverage regressions. Advocated for and implemented Test-Driven Development (TDD) practices, driving a cultural shift towards robust and maintainable code.
-- **Technical Leadership:** Promoted to Technical Lead for contributions to simulation platforms and organizational efficiency. Mentored team members and led platform-wide initiatives to improve SoC simulation quality and performance.
+- **Technical Leadership:** Promoted to Technical Lead for contributions to simulation platforms and organizational efficiency. Mentored new hires and streamlined a code coverage tool, currently adopted by 30 IPs, achieving coverage above 90%.
 
 ### Intel Corporation - Munich (Germany) - (Jul 2018, Apr 2022)
 
@@ -64,7 +64,7 @@ Designed a programmable many-core architecture based on SystemC for high-through
 
 ### Core Competencies
 
-- **Problem Solving & Initiative:** Thrive on embracing challenges, stepping out of my comfort zone, and figuring out solutions to complex tasks. I proactively seek opportunities to improve workflows and practices, often inspired by conversations with teammates or feedback from customers.
+- **Problem Solving & Initiative:** Thrive on embracing challenges, stepping out of my comfort zone, and figuring out solutions to complex tasks. Proactively improve workflows, leveraging team collaboration and customer feedback.
 - **Test-Driven Development (TDD) & Code Quality:** Strong advocate for unit testing, code coverage, and Test-Driven Development, ensuring the highest standards of quality across all projects.
 - **Clear & Simple Code:** Believe that great code is sincere, unadorned, and free of unnecessary complexity. Committed to writing clear, maintainable, and scalable code that teams can easily build upon.
 - **Collaboration & Team Success:** My achievements are rooted in the success of the team. I enjoy mentoring, sharing knowledge, and learning from others, fostering a culture of growth and continuous improvement.
@@ -79,7 +79,7 @@ Designed a programmable many-core architecture based on SystemC for high-through
 
 ## Languages
 
-- **Italian:** Native speaker
-- **English:** Fluent (professional proficiency)
-- **German:** Good (conversational proficiency)
-- **Spanish:** Basic (elementary proficiency)
+- **Italian:** Native
+- **English:** Fluent
+- **German:** Intermediate
+- **Spanish:** Basic
