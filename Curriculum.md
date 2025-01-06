@@ -13,29 +13,29 @@
 
 ### Intel Corporation - Ferrara (Italy) - (Apr 2022, Present)
 
-#### Simulation and Modeling Engineer - SystemC and Simics Simulation - Technical Lead
+#### Simulation and Modeling Engineer - Simics Simulator - Technical Lead
 
 Building on my experience in single-IP simulation, I transitioned to SoC-level responsibilities such as interconnect design update, end-to-end usecases ownership, improvements to build systems, testing frameworks, and quality assurance processes. These contributions led to my promotion to Technical Lead, a role in which I guide colleagues and lead initiatives targeting to improve Intel's SoC simulation platforms.
 
 Key Contributions:
 
-- 💻 **Pantherlake Sideband Topology Update & First Boot:** Designed and validated a Sideband network to enable multi-die, multi-domain communication. Solved challenges with multicast messaging using smoke platform initialization tests. Drove together with Bios/FW and OS team first SoC boot to UEFI shell and Windows OS.
+- 💻 **Pantherlake Intel IOSF Sideband Topology Update & First Boot:** Modeled and validated an interconnect network to enable multi-die, multi-domain communication. Solved challenges with multicast messaging using smoke platform initialization tests. Drove together with Bios/FW and OS team first SoC boot to UEFI shell and Windows OS.
 - 🚀 **Build System Modernization:** Spearheaded the transition from Make to CMake with Ninja, reducing build times of Simics SoCs platforms by 70% (from 50 to 15 minutes). Coordinated with all IP teams to align on the new build process, improving developer efficiency and CI pipelines.
-- ✅ **Unit Testing Framework for IPs:** Developed a unit test framework for IP-level validation, enabling early issue detection before platform integration. Ensured adoption by collaborating with technical leads and making unit testing mandatory for integration.
-- 🔧 **Code Quality and TDD Integration:** Integrated code coverage monitoring into GitHub workflows to prevent test coverage regressions. Advocated for and implemented Test-Driven Development (TDD) practices, driving a cultural shift towards robust and maintainable code.
-- 🤝 **Technical Leadership:** Promoted to Technical Lead for contributions to simulation platforms and organizational efficiency. Mentored new hires and streamlined a code coverage tool, currently adopted by 30 IPs, achieving coverage above 90%.
+- ✅ **Unit Testing Framework for Simics IPs:** Developed a unit test framework for Simics models, enabling early issue detection before platform integration. Ensured adoption by collaborating with technical leads and making unit testing mandatory for integration.
+- 🔧 **Code Quality and TDD Integration:** Integrated code coverage monitoring into GitHub workflows to prevent test coverage regressions. Advocated for and implemented Test-Driven Development (TDD) practices, driving a cultural shift towards robust and maintainable code. Currently adopted by 30 IPs, achieving coverage above 90%.
+- 🤝 **Technical Leadership:** Promoted to Technical Lead for contributions to simulation platforms and organizational efficiency. Mentored new hires and streamlined initiatives such as CMake migration, unit testing framework Simics models and code coverage check integrated into GitHub.
 
 ### Intel Corporation - Munich (Germany) - (Jul 2018, Apr 2022)
 
-#### Simulation and Modeling Engineer - SystemC and Simics Simulation
+#### Simulation and Modeling Engineer - SystemC and Simics Simulator
 
-When I transitioned into simulation modeling at Intel, I began working on SystemC IPs such as Audio and Camera models for Alderlake and Meteorlake Simics platforms, culminating with cross-team tasks on SystemC models like the Intel Sideband library update. Over time, I transitioned to developing a brand new IP using Device Modeling Language (DML), taking on full end-to-end ownership. This involved collaborating with BIOS, firmware, software, and OS teams to enable use cases and validate functionality. My work culminated in a strong and ongoing partnership with Microsoft, fostering cross-team collaboration that continues to deliver impactful results.
+When I transitioned into simulation modeling at Intel, I began working on SystemC IPs such as Audio and Camera models for Alderlake and Meteorlake Simics platforms, culminating with cross-team tasks on SystemC models like the Intel IOSF Sideband Interface library update. Over time, I transitioned to developing a brand new IP using Device Modeling Language (DML), taking on full end-to-end ownership. This involved collaborating with BIOS, firmware, software, and OS teams to enable use cases and validate functionality. My work culminated in a strong and ongoing partnership with Microsoft, fostering cross-team collaboration that continues to deliver impactful results.
 
 Key Contributions:
 
 - 🔈 **Audio IP and Hardware Communication Interfaces (Meteoralake):** Evaluated with architect teams the integration of embedded system interfaces such as I2C, I3C, SPI, UART to the Audio IP Simics SystemC model.
 - 🚀 **Build System Modernization:** Migrated the Audio IP build system from Make to CMake, achieving a 70% speedup in build times.
-- 🔧 **Intel Sideband SystemC Library Update:** Partnered with the Simics Simulator team the upgrade of the core Intel Sideband SystemC library to meet new architecture specifications.
+- 🔧 **Intel IOSF Sideband Interface SystemC Library Update:** Partnered with the Simics Simulator team the upgrade of the core Intel IOSF Sideband Interface SystemC library to meet new architecture specifications.
 - 📷 **Camera IP 3rd Party Integration (Meteorlake):** Integrated into a Simics SystemC model the Camera SystemC model developed by the IP team. Owned the end-to-end Simics validation.
 - :lock: **NVMe Data Encryption Modeling (Lunarlake):** Created brand new Simics DML (Device Modeling Language) model responsible of NVMe data encryption. Adopted Test-Driven Development (TDD) and validated functionality with the BIOS team using UEFI applications shifting left successfully the overall FW/SW/OS readiness.
 - 🤝 **Collaboration with Microsoft:** Running NVMe encryption flows on Simics helped Microsoft to detect and fix three critical bugs in the Windows OS pre-release. Microsoft found a great value in Simics SoC simuation, and the collaboration is continuing also for the upcoming SoCs like Pantherlake.
@@ -58,10 +58,10 @@ Designed a programmable many-core architecture based on SystemC for high-through
 - 🛠️ **Projects**:
   - **Network-On-Chip Architecture Combining Spatial and Temporal Partitioning (MsC Thesis, SystemC)**: Evaluated performance and isolation in many-core platforms analyzing engineering trade-offs like reduced memory access delays.
   - **RTOS-Based Driver for a Wi-Fi Gateway (Bachelor Thesis, C/C++)**: Developed a driver integrating a Wi-Fi module with an ARM-based performing network scanning, SSID connection, and Wi-Fi packet exchange.
-  - **Mixed-Signal Heart-Rate Monitor (VHDL):** Designed a heart-rate monitor with FPGA (Basys3), I2C sensor, and DAC converters integrated with Texas Instruments ASLKPRO Board.
+  - **Mixed-Signal Heart-Rate Monitor (VHDL):** Designed a heart-rate monitor with SPO2 sensor, FPGA, and DAC converters integrated with Texas Instruments ASLKPRO Board.
   - **Orthogonal Frequency-Division Multiplexing (Matlab):** Simulated a base station handling random user access, applying fairness algorithms for subcarrier allocation.
   - **Firewall Implementation (Python):** Developed flow control, IP routing, and cryptographic protocols.
-  - **FPGA Flash Programming (Intel Altera Quartus):** Implemented an LPF filter on Altera FPGA.
+  - **FPGA Flash Programming (Quartus):** Implemented an LPF filter on Altera FPGA.
   - **Power Amplifier for WLAN 802.11B (AWR Microwave Office):** Designed a power amplifier meeting IEEE 802.11b specifications using AWR Microwave Office.
 
 ## Skills
@@ -77,10 +77,10 @@ Designed a programmable many-core architecture based on SystemC for high-through
 
 ### Languages & Technical Skills
 
-- 💻 **Programming & Modeling Languages:**
-  - Proficient: Python, SystemC, Device Modeling Language (DML), CMake
-  - Experienced: C, C++, Make, Bash
-  - Familiar: VHDL, Verilog, SystemVerilog, Java, Assembly (ASM)
+- 💻 **Technical Skills & Tools:**
+  - Proficient: Python, Simics (System Simulation), DML & SystemC (Hardware Modeling), Git, CMake, Bash, Jenkins, GDB
+  - Experienced: C++, C, Make, Csh, VTune, Valgrind
+  - Familiar: VHDL, Verilog, SystemVerilog, QEMU, Assembly (ASM)
 - 🌐 **Languages:** Italian (Native), English (Fluent), German (Intermediate), Spanish (Basic)
 
 </div>
