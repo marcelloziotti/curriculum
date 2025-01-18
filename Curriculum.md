@@ -53,8 +53,8 @@ Designed a programmable many-core architecture based on SystemC for high-through
 
 ## Education
 
-- 🎓 **MSc in Electrical and Telecommunication Engineering, University of Ferrara (Italy) (2017)**
-- 🎓 **BSc in Electrical Engineering, University of Ferrara (Italy) (2014)**
+- 🎓 **MSc in Electrical and Telecommunication Engineering, University of Ferrara (Italy)**
+- 🎓 **BSc in Electrical Engineering, University of Ferrara (Italy)**
 - 🛠️ **Projects**:
   - **Network-On-Chip Architecture Combining Spatial and Temporal Partitioning (MsC Thesis, SystemC)**: Evaluated performance and isolation in many-core platforms analyzing engineering trade-offs like reduced memory access delays.
   - **RTOS-Based Driver for a Wi-Fi Gateway (Bachelor Thesis, C/C++)**: Developed a driver integrating a Wi-Fi module with an ARM-based performing network scanning, SSID connection, and Wi-Fi packet exchange.
