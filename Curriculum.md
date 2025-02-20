@@ -1,8 +1,18 @@
+<style>
+  @media print {
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+        width: 150px !important; /* Adjust this value as needed */
+    }
+  }
+</style>
+
 <div style="text-align: justify; font-size: 12.5px; line-height: 1.6;">
 
 # Marcello Ziotti
 
-<img src="profile-pic.jpg" alt="Marcello Ziotti" style="float: right; width: 12%; height: auto; margin-right: 2%;">
+<img src="profile-pic.jpg" alt="Marcello Ziotti" style="float: right; width: 15%; height: auto; margin-right: 2%;">
 
 ## Contacts
 
@@ -37,7 +47,7 @@ Key Contributions:
 - 🚀 **Build System Modernization:** Migrated the Audio IP build system from Make to CMake, achieving a 70% speedup in build times.
 - 🔧 **Intel IOSF Sideband Interface SystemC Library Update:** Partnered with the Simics Simulator team the upgrade of the core Intel IOSF Sideband Interface SystemC library to meet new architecture specifications.
 - 📷 **Camera IP 3rd Party Integration (Meteorlake):** Integrated into a Simics SystemC model the Camera SystemC model developed by the IP team. Owned the end-to-end Simics validation.
-- :lock: **NVMe Data Encryption Modeling (Lunarlake):** Created a new Simics DML (Device Modeling Language) model for NVMe data encryption. Adopted Test-Driven Development (TDD) and validated functionality with the BIOS team using UEFI applications, successfully shifting-left overall FW/SW/OS readiness.
+- 🔒 **NVMe Data Encryption Modeling (Lunarlake):** Created a new Simics DML (Device Modeling Language) model for NVMe data encryption. Adopted Test-Driven Development (TDD) and validated functionality with the BIOS team using UEFI applications, successfully shifting-left overall FW/SW/OS readiness.
 - 🤝 **Collaboration with Microsoft:** Running NVMe encryption flows on Simics helped Microsoft to detect and fix three critical bugs in the Windows OS pre-release. Microsoft found a great value in Simics SoC simuation, and the collaboration is continuing also for the upcoming SoCs like Pantherlake.
 - ⚙️ **Software Continuous Integration (SWCI) Initiative:** Initiated the SWCI project to integrate and test BIOS/FW components alongside Simics SoC builds. Enabled early identification of firmware issues and streamlined the integration process to upcoming SoCs like Pantherlake.
 
