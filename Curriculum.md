@@ -1,5 +1,3 @@
-<style> @media print { img { max-width: 100% !important; height: auto !important; width: 150px !important; } } </style>
-
 <div style="text-align: justify; font-size: 12.5px; line-height: 1.6;">
 
 # Marcello Ziotti
@@ -78,3 +76,13 @@ Designed a programmable many-core architecture with SystemC for high-throughput,
 - 🌐 **Languages:** Italian (Native), English (Fluent), German (Intermediate), Spanish (Basic)
 
 </div>
+
+<style>
+  @media print {
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+        width: 150px !important; /* Adjust this value as needed */
+    }
+  }
+</style>
