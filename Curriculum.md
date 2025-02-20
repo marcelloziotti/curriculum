@@ -2,7 +2,7 @@
 
 # Marcello Ziotti
 
-<img src="profile-pic.jpg" alt="Marcello Ziotti" style="float: right; width: 15%; height: auto; margin-right: 2%;">
+<img src="img/profile-pic.jpg" alt="Marcello Ziotti" style="float: right; width: 15%; height: auto; margin-right: 2%;">
 
 ## Contacts
 
